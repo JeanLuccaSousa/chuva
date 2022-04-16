@@ -6,57 +6,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Slaca 2019</title>
     <link rel="stylesheet" href="estilo.css">
+
+    
+             <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+             <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css"/>
+          
+    
+    
+   
 </head>
-<body id="tres-colunas" class="home">
-    <!--Inicio container-->
-    <div id="container">
-        <!--Inicio topo-->
-        <div id="topo">
-            <div class="logo"><h1 style="color: black; border: 1px solid red;">Slaca 2019</h1></div>
+<body>
+    <style>
+        @media (max-width: 600px) {
+  h5 {
+    color: green;
+    padding-left: 80px;
+  }
+}
+    </style>
+    
+    
+         <nav>
+                 <div class="nav-wrapper">
+                    <h5 style="position: absolute;margin-left:15px;">teste</h5>
+                     
+                     <a href="#" data-activates="menu-mobile" class="button-collapse">
+                        <i class="material-icons">menu</i>
+                     </a>
+                     <ul class="right hide-on-med-and-down">
+                         
+                       <li><a href="#">Angular</a></li>
+                         <li><a href="#">Ionic</a></li>
+                         <li><a href="#">TypeScript</a></li>
+                         <li><a href="#">Cordova</a></li>
+                     </ul>
+                     
+                     <ul class="side-nav" id="menu-mobile">
+                          <li><a href="#">Angular</a></li> 
+                         <li><a href="#">Ionic</a></li>
+                         <li><a href="#">TypeScript</a></li>
+                         <li><a href="#">Cordova</a></li>
+                         <li><a href="#">teste</a></li>
+                        <li><a href="#">teste1</a></li>
+                     </ul>
+                     <div class="side-nav" id="menu-mobile">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ex ducimus quisquam! Suscipit dolor ducimus provident delectus porro magnam corporis eaque qui deleniti voluptatibus, omnis quae officiis ullam cum rem.</p>
+                     </div>
+                     
+                 </div>
+             </nav>
+
             
-            <div id="navegação">
-                <h1>teste</h1>
-                <h2>teste 2</h2>
-            </div>
-        </div>
-        <!--Fim do topo-->
 
-        <!--Inicio conteúdo-->
-    <div id="conteudo">   
-        <div id="primario">
-            <div class="caixa destaque">
-                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quaerat similique soluta corrupti maxime nihil libero asperiores, optio culpa molestiae esse? Commodi molestias ipsum suscipit assumenda vel tempora earum aperiam.</h2>
-            </div>
-        </div>
-        
-        
-        
-        <!--Inicio lateral-->
-        <div id="lateral">
-            <div class="caixa">
-                <div class="caixa-conteudo">
-                    
-                    
-            </div>
-           
+             
 
-        </div><!--Fim lateral-->
-        
-        
-        
-       
-        
-    </div>
-    <!--Fim do conteúdo-->
+             
 
-    </div><!--Fim do container-->
-    
-    <div id="container-rodapé" style="clear: both;">
-        <div id="rodapé">
-            &copy; Copyright 2000-2018 Notícias cidade
 
-        </div>
-    </div>
-    
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
 </body>
+ <script>
+     $(function(){
+         $(".button-collapse").sideNav();
+    0});
+     </script>
 </html>
