@@ -1,0 +1,90 @@
+.lateral {
+    width: 220px;
+    height: 1988px;
+    float: left;
+    border: 1px solid red;
+}
+
+.primeiro {
+    position: absolute;
+    left: 0;
+    top: 312px;  
+}
+
+ ul > li {
+    top: 0;
+    width: 220px;
+    height: 33px;
+    bottom: 5.71%;
+    border: 1px solid green;
+}
+
+.imagem > img {
+    position: absolute;
+    width: 220px;
+    height: 258px;
+    border: 1px solid blue;
+}
+
+section {
+    width: 783px;
+    position: absolute;
+    display: flex;
+    text-align: center;
+    border: 1px solid red;
+    align-items: center;
+    margin-left: 260px;
+}
+
+.lateral2 {
+    width: 242px;
+    height: 1988px;
+    float: right;
+    border: 1px solid red;
+}
+
+.segundo {
+    position: absolute;
+    left: 0;
+    top: 312px;  
+}
+
+
+
+@media (max-width: 600px) {
+
+    .imagem, .primeiro {
+        display: none;
+            left: 0;
+            top: 308px; 
+    }
+
+    #menu-mobile {
+        position: absolute;
+    width: 220px;
+    height: 258px;
+}
+    .primeiro {
+        position: absolute;
+        left: 0;
+        top: 308px;  
+    }
+    
+     ul > li {
+        top: 0;
+        width: 220px;
+        height: 33px;
+        bottom: 5.71%;
+   
+
+    }
+
+    .lateral {
+        width: 220px;
+        height: 700px;
+        float: left;
+        border: 1px solid red;
+    }
+
+
+}
