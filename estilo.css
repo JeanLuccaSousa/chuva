@@ -1,53 +1,484 @@
 .lateral {
+    position: absolute;
     width: 220px;
-    height: 1988px;
+    height: 2314px;
     float: left;
-    border: 1px solid red;
+    
 }
+
+.container {
+    height: 68px;
+    width: 1366px;
+}
+
+.nav-wrapper {
+    position: absolute;
+     width: 220px;
+     height:68px;
+    
+    
+     bottom: 0;
+     background: linear-gradient(#FFB354,
+     #EE7A3A
+     );
+}
+
+.menu {
+    width: 1146px;
+    left: 274px;
+    height: 68px;
+    border: 1px solid red;
+    position: absolute;
+}
+
+.menu_paragrafo {
+    position: absolute;
+    border:1px solid black;
+    width: 391px;
+    height: 16px;
+    top: 5px;
+}
+
+.menu_paragrafo > p {
+width: 391px;
+margin-top: 0;
+left: 36px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+color: #725C5C;
+}
+
+.menu_variado {
+    position: absolute;
+    width: 1055px;
+    height: 26px;
+    left: 0;
+    top: 23px;
+    border: 1px solid purple;
+}
+
+.variado_1 > p {
+    width: 643px;
+    height: 26px;
+    left: 0;
+    margin-top: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #725C5C;
+}
+
+.variado_2 {
+    height: 34px;
+    width: 97px;
+    left: 740px;
+    top: -9px;
+    border-radius: 3px;
+    position: absolute;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.variado_3 {
+    width: 163px;
+    height: 15px;
+    border: 1px solid black;
+    left: 860px;
+    position: absolute;
+}
+
+
+
+
+
+.nav-wrapper > h5 {
+    position: absolute;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-weight: 700, bold;
+    text-align: center;
+    color: #ffffff;
+     width: 178px;
+     font-size: 30px;
+     margin-left: 23px;
+     line-height: 35.16px;
+     
+}
+
+.download > button{
+    width: 120px;
+    height:31px;
+    margin-left: 25px;
+    margin-right: 5px;
+    line-height: 19px; 
+    background-color: #ED7839;
+    color: #ffffff;
+    border: 1px solid #ED7839;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.download_1 {
+    margin-right: 5px;  
+}
+
+.download_1, .download_2 {
+    background-color: #ED7839;
+    color: #ffffff;
+    border: 1px solid #ED7839;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 4px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.download_1, .download_2 {
+    width: 43px;
+    height:31px;
+}
+
+.download_1, .download_2 > img {
+    line-height: 20.08px;
+    letter-spacing: 0.01em;
+    padding-top: 4px;
+}
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
 
 .primeiro {
     position: absolute;
     left: 0;
-    top: 312px;  
+    top: 242px;  
+    background-color: red;
+    color:white;
+}
+
+ ul > li > a {
+margin-left: 10.91%;
+top: 20%;
+bottom: 25.71%;
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500,media;
+font-size: 15px;
+line-height: 19px;
+color: #725C5C;
+}
+
+ul > li:hover {
+   
+    
+left: 0%;
+right: 97.73%;
+top: 0%;
+bottom: 5.71%;
+
+
+     
+    
+}
+
+.dr {
+    
+
+    background: #FDF1EB;
 }
 
  ul > li {
+     
     top: 0;
     width: 220px;
     height: 33px;
     bottom: 5.71%;
-    border: 1px solid green;
+    
 }
 
 .imagem > img {
     position: absolute;
+    top: 0;
     width: 220px;
     height: 258px;
-    border: 1px solid blue;
+    
 }
 
 section {
     width: 783px;
     position: absolute;
-    display: flex;
-    text-align: center;
-    border: 1px solid red;
+    
+    
+   
     align-items: center;
-    margin-left: 260px;
+    margin-left: 273px;
+}
+
+
+.paragrafo_principal > p {
+    position: absolute;
+height: 54px;
+left: 0px;
+text-align: start;
+border: 1px solid yellow;
+
+
+top: -10px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 25px;
+/* or 125% */
+
+letter-spacing: 0.05em;
+
+color: #ED7839;
 }
 
 .lateral2 {
     width: 242px;
     height: 1988px;
     float: right;
-    border: 1px solid red;
+    margin-right: 18px;
 }
 
 .segundo {
     position: absolute;
-    left: 0;
-    top: 312px;  
+    
+    
+    top: 141px;
+    
+    width: 242px;
+    height: 439px;
+    border: 1px solid #ECECEC;
+    
 }
+
+.conteudo {
+position: absolute;
+width: 1058px;
+height: 189px;
+left: 0px;
+top: 542px;
+border: 1px solid black;
+box-sizing: border-box;
+border-radius: 3px;
+}
+
+.resumo {
+    width: 1058px;
+    height:189px;
+    border: 1px solid red;
+}
+
+.resumo > h1 {
+    padding-left: 15px;
+    width: 1058px;
+    margin-top: 0;
+    height: 45px;
+    background-color: #FDF1EB;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 25px;
+/* identical to box height, or 125% */
+
+display: flex;
+align-items: center;
+
+color: #4E4E4E;
+}
+
+.resumo > p {
+    width: 1028px;
+    height: 114px;
+    margin-top: -10px;
+    margin-left: 15px;
+    
+}
+
+.conteudo > p {
+    
+    position: static;
+width: 1028px;
+height: 114px;
+left: 0px;
+top: 0px;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 23px;
+letter-spacing: 0.02em;
+
+color: #5C5C5C;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 0px 0px;
+}
+
+.segundo_titulo {
+    position: absolute;
+    
+    
+    height: 45px;
+    width: 240px;
+    background: #FDF1EB;
+border: 1px solid #ECECEC;
+box-sizing: border-box;
+border-radius: 3px 3px
+
+}
+
+.segundo_titulo > h2 {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+width: 212px;
+height:25px;
+
+
+
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 25px;
+/* identical to box height, or 125% */
+
+
+
+
+color: #4E4E4E;
+}
+
+.post{
+    position: absolute;
+   
+    height: 364px;
+    width: 212px;
+    top: 70px;
+    margin-left: 10px;
+   
+}
+
+.conteudo2 {
+    position: absolute;
+    width: 1058px;
+    height: 1234px;
+    top: 761px;
+    border: 1px solid purple;
+}
+
+.footer {
+    position: absolute;
+    top: 2083px;
+    width: 1058px;
+    height: 181px;
+    background-image: url(imagens/imagem\ -\ footer.png);
+    border: 1px solid brown;
+}
+
+
+
+
+
+
+
+
+.paragrafo_principal {
+    width: 783px;
+    height: 54px;
+
+}
+
+.botoes {
+    width: 242px;
+    height: 31px;
+    margin-top: 50px;
+    margin-right: 25px;
+    border: 1px solid blue;
+    
+    display: flex;
+    position: absolute;
+    top: 30px;
+    
+}
+
+.pp {
+    
+    position : absolute;
+    width: 239px;
+    height: 25px;
+    top: 115px;
+}
+
+.pp > p {
+    position: absolute;
+    font-family: 'Roboto';
+font-style: normal;
+margin-left: 25px;
+top: -12px;
+font-weight: 500;
+font-size: 14px;
+line-height: 25px;
+/* identical to box height, or 179% */
+
+text-align: right;
+letter-spacing: 0.05em;
+
+color: #ED7839;
+}
+
+.img2 {
+    
+    position: absolute;
+    height: 439px;
+    top:73px;
+    margin-right: 0px;
+}
+
+.img2 > img {
+    height: 439px;
+    
+width: 783px;
+height: 439px;
+}
+
+
 
 
 
@@ -68,6 +499,7 @@ section {
         position: absolute;
         left: 0;
         top: 308px;  
+        
     }
     
      ul > li {
